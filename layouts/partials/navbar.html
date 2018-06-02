@@ -13,7 +13,7 @@
             {{ range .Site.Menus.main }}
                 <li>
                     <a href="{{ .URL }}">
-                            <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
+                            <i class="{{ .Identifier }}"></i>{{print " "}}{{ .Name }}
                     </a>
                 </li>
             {{ end }}
