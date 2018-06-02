@@ -517,7 +517,7 @@
 				font-weight: normal;
 				text-transform: none !important;
 				color: #aaaaaa;
-				content: f002;
+				content: '\f002';
 				display: block;
 				height: 2.75em;
 				left: 0;
@@ -2298,7 +2298,7 @@
 					text-transform: uppercase;
 				}
 
-		#header .main {
+		 #header .main {
 			height: inherit;
 			line-height: inherit;
 			text-align: right;
@@ -2327,7 +2327,7 @@
 						color: #aaaaaa;
 						overflow: hidden;
 						position: relative;
-						text-indent: 4em;
+						text-align: center;
 						width: 4em;
 						color: #333333;
 						/* Theoretically for IE 8 & 9 (more valid) */
@@ -2342,27 +2342,6 @@
 						/* Modern Browsers */
 						opacity: 0.35;
 					}
-
-						#header .main ul li > a:before {
-							-moz-osx-font-smoothing: grayscale;
-							-webkit-font-smoothing: antialiased;
-							font-family: "Font Awesome 5 Solid";
-							font-style: normal;
-							font-weight: normal;
-							text-transform: none !important;
-						}
-
-						#header .main ul li > a:before {
-							display: block;
-							height: inherit;
-							left: 0;
-							line-height: inherit;
-							position: absolute;
-							text-align: center;
-							text-indent: 0;
-							top: 0;
-							width: inherit;
-						}
 
 		#header form {
 			margin: 0;

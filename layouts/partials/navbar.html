@@ -19,25 +19,27 @@
             {{ end }}
         </ul>
     </nav>
-    <!-- <nav class="main">
+    <nav class="main">
         <ul>
+            
             {{ if $.Scratch.Get "shareNav" }}
             <li id="share-nav" class="share-menu" style="display:none;">
-                <a class="fa-share-alt" href="#share-menu">Share</a>
+                <a href="#share-menu"><i class="fas fa-share-alt"></i></a>
             </li>
             {{ end }}
             <li class="search">
-                <a class="fa-search" href="#search">Search</a>
+                <a href="#search"><i class="fas fa-search"></i></a>
                 <form id="search" method="get" action="//google.com/search">
                     <input type="text" name="q" placeholder="Search" />
                     <input type="hidden" name="as_sitesearch" value="{{ .Site.BaseURL }}">
                 </form>
             </li>
+            
             <li class="menu">
-                <a class="fa-bars" href="#menu">Menu</a>
+                <a href="#menu"><i class="fas fa-bars"></i></a>
             </li>
         </ul>
-    </nav> -->
+    </nav>
 </header>
 
 <!-- Menu -->
@@ -58,7 +60,7 @@
                     <li>
                         <a href="{{ .URL }}">
                             <h3>
-                                <i class="{{ .Identifier }}">&nbsp;</i>{{ .Name }}
+                                <i class="{{ .Identifier }}"></i>{{print " "}}{{ .Name }}
                             </h3>
                         </a>
                     </li>
