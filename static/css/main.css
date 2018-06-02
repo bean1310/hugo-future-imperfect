@@ -933,6 +933,7 @@
 
 				ul.actions.pagination .next:after {
 					content: "";
+					display: none;
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
 					font-family: "Font Awesome 5 Solid";
@@ -951,6 +952,7 @@
 
 				ul.actions.pagination .previous:before {
 					content: "";
+					display: none;
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
 					font-family: "Font Awesome 5 Solid";
@@ -2053,7 +2055,7 @@
 
 							table > tbody > tr > td:first-child:after {
 								float: right;
-								content: "\f107";
+								content: "\f103";
 								font-family: "Font Awesome 5 Solid";
 								font-style: normal;
 								font-weight: normal;
