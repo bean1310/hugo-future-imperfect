@@ -512,12 +512,12 @@
 			form.contact:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Solid";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
 				color: #aaaaaa;
-				content: '\f002';
+				content: f002;
 				display: block;
 				height: 2.75em;
 				left: 0;
@@ -600,7 +600,7 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Solid";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -660,7 +660,7 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Solid";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -728,7 +728,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -889,14 +889,14 @@
 					border: 0;
 				}
 
-					ul.icons li > *:before {
+					/* ul.icons li > *:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
+						font-family: "Font Awesome 5 Brands";
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
-					}
+					} */
 
 					ul.icons li > * .label {
 						display: none;
@@ -935,7 +935,7 @@
 					content: "";
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: "Font Awesome 5 Solid";
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -953,7 +953,7 @@
 					content: "";
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: "Font Awesome 5 Solid";
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
@@ -2054,7 +2054,7 @@
 							table > tbody > tr > td:first-child:after {
 								float: right;
 								content: "\f107";
-								font-family: FontAwesome;
+								font-family: "Font Awesome 5 Solid";
 								font-style: normal;
 								font-weight: normal;
 								text-decoration: inherit;
@@ -2344,7 +2344,7 @@
 						#header .main ul li > a:before {
 							-moz-osx-font-smoothing: grayscale;
 							-webkit-font-smoothing: antialiased;
-							font-family: FontAwesome;
+							font-family: "Font Awesome 5 Solid";
 							font-style: normal;
 							font-weight: normal;
 							text-transform: none !important;
