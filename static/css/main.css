@@ -508,31 +508,6 @@
 			position: relative;
 		}
 
-			form.search:before,
-			form.contact:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				font-family: "Font Awesome 5 Solid";
-				font-style: normal;
-				font-weight: normal;
-				text-transform: none !important;
-				color: #aaaaaa;
-				content: '\f002';
-				display: block;
-				height: 2.75em;
-				left: 0;
-				line-height: 2.75em;
-				position: absolute;
-				text-align: center;
-				top: 0;
-				width: 2.5em;
-			}
-
-			form.search > input:first-child,
-			form.contact > input:first-child {
-				padding-left: 2.5em;
-			}
-
 	label {
 		color: #3c3b3b;
 		display: block;
