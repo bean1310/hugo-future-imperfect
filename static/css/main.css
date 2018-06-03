@@ -2386,7 +2386,7 @@
 
 		}
 
-		@media screen and (max-width: 320px) {
+		@media screen and (max-width: 391px) {
 			#header h1 {
 				min-width: 0;
 				padding: 0 0 0 .5em;
