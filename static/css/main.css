@@ -2809,15 +2809,17 @@
 	.share-btn.pinterest	 { background: #BD081C; }
 	.share-btn.reddit      { background: #ff5700; }
 	.share-btn.email       { background: #444444; }
+	.share-btn.line     	{ background: #32AF2D; }
 
 	  .share-btn.twitter:hover     { background: #4c9ad6; }
 	  .share-btn.google-plus:hover { background: #c64333; }
 	  .share-btn.facebook:hover    { background: #2f4779; }
 	  .share-btn.linkedin:hover    { background: #4069a2; }
 	  .share-btn.stumbleupon:hover { background: #d3401f; }
-		.share-btn.pinterest:hover   { background: #AD0000; }
+	  .share-btn.pinterest:hover   { background: #AD0000; }
 	  .share-btn.reddit:hover      { background: #e54e00; }
 	  .share-btn.email:hover       { background: #363636; }
+	  .share-btn.line:hover			{ background: rgb(41, 150, 37); }
 
 /* Share Menu */
 

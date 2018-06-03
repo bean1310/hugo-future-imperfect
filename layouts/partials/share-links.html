@@ -82,3 +82,15 @@
   </a>
 </li>
 {{ end }}
+
+<!-- BEAN拡張 -->
+
+<!-- LINE -->
+{{ if .Site.Params.socialShareLINE | default true}}
+<li>
+  <a href="//social-plugins.line.me/lineit/share?url={{ .Permalink }}" target="_blank" class="share-btn line">
+    <i class="fab fa-line"></i>
+    <p>LINE</p>
+    </a>
+</li>
+{{ end }}
