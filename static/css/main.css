@@ -69,6 +69,10 @@
 		border-spacing: 0;
 	}
 
+	figcaption {
+		text-align: right;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
