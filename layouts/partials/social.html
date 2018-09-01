@@ -28,7 +28,21 @@
   <li><a href="//instagram.com/{{.}}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
 {{ end }}
 
-<!-- ここからBEAN拡張 -->
+<!-- ここからBEAN拡張 
+      汎用的じゃないよ...
+-->
+
+{{ with .Site.Social.pleroma }}
+<li>
+  <a href="//plrm.beanlog.xyz/users/{{.}}" target="_blank" title="pleroma | BEAN">
+    <svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 159.86046 135.46666">
+      <g transform="translate(-5.1514 -73.364)">
+        <path stroke-width=".23535" fill="currentColor" d="m22.684 73.364c-9.7129 0-17.532 7.8195-17.532 17.532v72.077c0 9.7129 7.8195 17.532 17.532 17.532h9.3974l40.379 28.325 0.03937-28.325h74.98c9.7129 0 17.532-7.8195 17.532-17.532v-72.073c0-9.7129-7.8195-17.532-17.532-17.532zm6.4875 23.376h119.48v11.04h-119.48zm0.64946 25.325h81.817v11.039h-81.819zm0.32452 25h45.13v10.715h-45.131z"/>
+      </g>
+    </svg>
+  </a>
+</li>
+{{ end }}
 
 {{ with .Site.Social.mstdn }}
 <li><a href="//mstdn.maud.io/@{{.}}" target="_blank" title="mastodon"><i class="fab fa-mastodon"></i></a></li>
