@@ -28,6 +28,10 @@
   <li><a href="//instagram.com/{{.}}" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
 {{ end }}
 
+{{ with .Site.Social.twitter }}
+  <li><a href="//twitter.com/{{.}}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+{{ end }}
+
 <!-- ここからBEAN拡張 -->
 
 {{ with .Site.Social.mstdn }}
